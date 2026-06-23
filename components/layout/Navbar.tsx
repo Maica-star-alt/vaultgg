@@ -1,13 +1,14 @@
 "use client";
 
 import { useState } from "react";
-import { Menu, X, Shield } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { ButtonLink } from "@/components/ui/Button";
 
 const links = [
   { href: "/browse", label: "Browse" },
   { href: "/sell", label: "Sell Account" },
-  { href: "/#how-it-works", label: "How it works" },
+  { href: "/how-to-pay", label: "How to Pay" },
+  { href: "/contact", label: "Contact" },
 ];
 
 export function Navbar() {
@@ -51,7 +52,7 @@ export function Navbar() {
                 {l.label}
               </a>
             ))}
-            <ButtonLink href="/sell" className="mt-2 w-full justify-center">Sell Account</ButtonLink>
+            <ButtonLink href="/browse" className="mt-2 w-full justify-center">Browse Accounts</ButtonLink>
           </div>
         </div>
       )}
