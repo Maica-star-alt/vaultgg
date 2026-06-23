@@ -48,7 +48,7 @@ Open http://localhost:3000
 
 ## Deployment
 
-Same as Afterward — push to GitHub, deploy on Netlify.
+Push to GitHub, deploy on Netlify.
 
 ```bash
 git init
